@@ -17,16 +17,8 @@
  along with Darling.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-#import <WebKit/WKDOMElement.h>
+#include <Foundation/Foundation.h>
 
-@implementation WKDOMElement
-
-- (NSMethodSignature *)methodSignatureForSelector:(SEL)aSelector {
-    return [NSMethodSignature signatureWithObjCTypes: "v@:"];
-}
-
-- (void)forwardInvocation:(NSInvocation *)anInvocation {
-    NSLog(@"Stub called: %@ in %@", NSStringFromSelector([anInvocation selector]), [self class]);
-}
+@interface DOMNode : NSObject
 
 @end

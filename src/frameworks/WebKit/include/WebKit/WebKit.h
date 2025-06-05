@@ -24,6 +24,10 @@
 #import <Foundation/Foundation.h>
 
 #import <WebKit/CAAnimationDelegate.h>
+#import <WebKit/DOMElement.h>
+#import <WebKit/DOMHTMLAnchorElement.h>
+#import <WebKit/DOMHTMLElement.h>
+#import <WebKit/DOMNode.h>
 #import <WebKit/NSCandidateListTouchBarItemDelegate.h>
 #import <WebKit/NSGestureRecognizerDelegate.h>
 #import <WebKit/NSImmediateActionAnimationController.h>
@@ -116,8 +120,6 @@
 #import <WebKit/WKContentRuleList.h>
 #import <WebKit/WKContentRuleListStore.h>
 #import <WebKit/WKDOMDocument.h>
-#import <WebKit/WKDOMElement.h>
-#import <WebKit/WKDOMNode.h>
 #import <WebKit/WKDOMRange.h>
 #import <WebKit/WKDOMText.h>
 #import <WebKit/WKDOMTextIterator.h>
