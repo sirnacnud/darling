@@ -163,3 +163,6 @@ add_framework(WebKit
         objc
         Foundation
 )
+
+set_property(TARGET WebKit APPEND_STRING PROPERTY LINK_FLAGS
+    " -Wl,-reexport_library,${CMAKE_BINARY_DIR}/src/external/objc4/runtime/libobjc.A.dylib ")
