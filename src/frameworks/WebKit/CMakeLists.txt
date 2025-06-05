@@ -18,6 +18,10 @@ add_framework(WebKit
     VERSION ${FRAMEWORK_VERSION}
 
     SOURCES
+        src/DOMElement.m
+        src/DOMHTMLElement.m
+        src/DOMHTMLAnchorElement.m
+        src/DOMNode.m
         src/WebKit.m
         src/_WKActivatedElementInfo.m
         src/_WKApplicationManifest.m
@@ -83,8 +87,6 @@ add_framework(WebKit
         src/WKContentRuleList.m
         src/WKContentRuleListStore.m
         src/WKDOMDocument.m
-        src/WKDOMElement.m
-        src/WKDOMNode.m
         src/WKDOMRange.m
         src/WKDOMText.m
         src/WKDOMTextIterator.m
