@@ -19,6 +19,9 @@
 
 #import <PDFKit/PDFDocument.h>
 
+// Check actual value
+PDFDocumentAttribute const PDFDocumentTitleAttribute = @"PDFDocumentTitleAttribute";
+
 @implementation PDFDocument
 
 - (NSMethodSignature *)methodSignatureForSelector:(SEL)aSelector
