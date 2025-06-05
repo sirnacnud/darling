@@ -19,6 +19,9 @@
 
 #import <PubSub/PSFeed.h>
 
+// Check value
+NSString* const PSFeedRefreshingNotification = @"PSFeedRefreshingNotification";
+
 @implementation PSFeed
 
 - (NSMethodSignature *)methodSignatureForSelector:(SEL)aSelector
