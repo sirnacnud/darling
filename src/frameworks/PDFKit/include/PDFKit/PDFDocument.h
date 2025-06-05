@@ -19,6 +19,10 @@
 
 #include <Foundation/Foundation.h>
 
+typedef NSString *PDFDocumentAttribute NS_STRING_ENUM;
+
+extern PDFDocumentAttribute const PDFDocumentTitleAttribute;
+
 @interface PDFDocument : NSObject
 
 @end
