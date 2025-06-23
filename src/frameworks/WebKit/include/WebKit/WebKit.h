@@ -46,6 +46,7 @@
 #import <WebKit/PKPaymentAuthorizationViewControllerDelegate.h>
 #import <WebKit/PKPaymentAuthorizationViewControllerPrivateDelegate.h>
 #import <WebKit/QLPreviewMenuItemDelegate.h>
+#import <WebKit/WebPolicyDelegate.h>
 #import <WebKit/WKInspectorViewControllerDelegate.h>
 #import <WebKit/WKInspectorWKWebViewDelegate.h>
 #import <WebKit/WKNavigationDelegate.h>

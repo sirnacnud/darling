@@ -23,6 +23,7 @@ add_framework(WebKit
         src/DOMHTMLAnchorElement.m
         src/DOMNode.m
         src/WebKit.m
+        src/WebPolicyDelegate.m
         src/_WKActivatedElementInfo.m
         src/_WKApplicationManifest.m
         src/_WKAttachmentDisplayOptions.m
